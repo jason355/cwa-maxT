@@ -1,9 +1,9 @@
 import requests
 import tkinter as tk
 
-openweather_api_key = "f78a1322a0d3d098148a0afc21f2de47"
-cwa_api_key = "CWA-FCA76849-D9AC-4D9F-BDAF-98A0F4D4FFC6"
-city = "Taipei"
+
+cwa_api_key = ""
+
 
 
 root = tk.Tk()
