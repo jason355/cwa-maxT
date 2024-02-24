@@ -1,12 +1,12 @@
 import requests
 import tkinter as tk
 
-cwa_api_key = "CWA-FCA76849-D9AC-4D9F-BDAF-98A0F4D4FFC6"
-location_Name = "臺北市"
+cwa_api_key = "" #填入你的key
+location_Name = "臺北市" # 設定地區
 url = f'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization={cwa_api_key}&format=JSON&locationName={location_Name}&elementName=MaxT'
 
-root = tk.Tk()
-root.geometry("400x300") 
+root = tk.Tk() # 建立視窗
+root.geometry("400x300") # 
 root.title("最高溫預測")
 font_style_large = ("新細明體", 14)
 
